@@ -1,10 +1,10 @@
 import { Suspense } from "react";
-import VerifyOTPPage from "@/components/VerifyOTPPage ";
+import VerifyLoginPage from "@/components/VerifyLoginPage ";
 
 export default function VerifyLoginPageWrapper() {
   return (
     <Suspense fallback={<div className="p-4 text-center">Loading...</div>}>
-      <VerifyOTPPage />
+      <VerifyLoginPage />
     </Suspense>
   );
 }
